@@ -101,6 +101,9 @@ div {
 }
 
 .faixa-cards {
+  margin-top: 3px;
+  border-radius: 4px;
+  background-color: rgb(144, 203, 255);
   display: flex;
   justify-content: center;
 }
@@ -113,4 +116,26 @@ div {
 
 i {
   color: red;
+}
+
+.butao {
+  font-size: 16px;
+}
+
+.butao > a {
+  color: rgb(0, 0, 0);
+}
+
+.section-masc {
+  margin-top: 2px;
+}
+
+.pai {
+  width: 10;
+  height: 300px;
+}
+
+.logos {
+  width: 100px;
+  padding: 10px;
 }
