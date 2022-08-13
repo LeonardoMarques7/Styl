@@ -28,6 +28,10 @@ img:hover > nav {
   text-align: center;
 }
 
+.home {
+  height: 100vh;
+}
+
 button {
   text-decoration: none;
   cursor: pointer;
@@ -91,33 +95,51 @@ div {
 }
 
 .cards-home {
-  box-shadow: 0px 0px 5px antiquewhite;
+  border: 0.5px solid antiquewhite;
+  background-color: rgba(240, 248, 255, 0.205);
   margin: 10px;
-  border-radius: 4px;
+  border-radius: 5px;
   width: 250px;
   height: 400px;
+}
+
+.cards-home:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgb(255, 226, 189);
+  border: 1px solid antiquewhite;
+  background-color: aliceblue;
+}
+
+.cards-home-fe {
+  border: 0.5px solid antiquewhite;
+  background-color: rgba(240, 248, 255, 0.205);
+  margin: 10px;
+  border-radius: 5px;
+  width: 250px;
+  height: 400px;
+}
+
+.cards-home-fe:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px antiquewhite;
   border: 1px solid antiquewhite;
   background-color: aliceblue;
 }
 
 .cards-home-2 {
-  box-shadow: 0px 0px 5px antiquewhite;
   margin: 10px;
-  border-radius: 4px;
+  border-radius: 5px;
   width: 250px;
   height: 200px;
   border: 1px solid antiquewhite;
-  background-color: aliceblue;
-}
-
-.cards-home:hover {
-  cursor: pointer;
-  background-color: rgba(0, 255, 255, 0.253);
+  background-color: rgba(240, 248, 255, 0.205);
 }
 
 .cards-home-2:hover {
   cursor: pointer;
-  background-color: rgba(0, 255, 255, 0.253);
+  box-shadow: 0px 0px 5px rgb(255, 226, 189);
+  border: 1px solid antiquewhite;
+  background-color: aliceblue;
 }
 
 .faixa-cards {
@@ -160,6 +182,7 @@ i {
 }
 
 .section-masc {
+  background-color: beige;
   margin-top: 2px;
 }
 
@@ -173,4 +196,16 @@ i {
   margin-bottom: 5px;
   width: 100px;
   padding: 10px;
+}
+
+.contatos {
+  height: 100vh;
+}
+
+i {
+  text-decoration: line-through;
+}
+
+b > i {
+  text-decoration: none;
 }
