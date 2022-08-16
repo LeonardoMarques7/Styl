@@ -2,19 +2,35 @@
   font-family: "Raleway", sans-serif;
 }
 
+html {
+  background-color: antiquewhite;
+}
+
 a {
+  padding-left: 10px;
   text-decoration: none;
-  color: rgb(121, 121, 121);
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  text-shadow: 1px 1px 1px antiquewhite;
 }
 
 nav {
-  position: inherit;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  flex-wrap: nowrap;
+  background-color: #d3d8dec9;
   display: flex;
   text-align: justify;
   justify-content: space-around;
 }
 
-img > nav {
+a > img > nav {
   width: 60px;
 }
 
@@ -22,10 +38,6 @@ img:hover > nav {
   cursor: pointer;
   box-shadow: 0 0 5px antiquewhite;
   border-radius: 16px;
-}
-
-.nav-button {
-  text-align: center;
 }
 
 .home {
@@ -57,9 +69,11 @@ section {
 }
 
 .div-sobre {
-  border: 1px solid antiquewhite;
+  padding: 2px;
+  font-size: 18px;
+  box-shadow: 0px 0px 15px rgb(253, 157, 157);
   background-color: aliceblue;
-  border-radius: 4px;
+  border-radius: 10px;
   padding-left: 2px;
   padding-right: 2px;
   margin-left: 25vw;
@@ -74,13 +88,18 @@ section {
   padding-top: -3px;
 }
 
+.padd:hover {
+  cursor: pointer;
+}
+
 div {
   text-align: center;
 }
 
 .lexa {
+  font-size: 18px;
   width: 300px;
-  border: 1px solid transparent;
+  border: 2px solid antiquewhite;
   border-radius: 10px;
 }
 
@@ -161,12 +180,15 @@ div {
   width: 250px;
   height: 320px;
   border-bottom: 1px solid antiquewhite;
+  border-radius: 4px;
 }
 
 .imagens-cards-2 {
   width: 250px;
   height: 151px;
   border-bottom: 1px solid antiquewhite;
+
+  border-radius: 4px;
 }
 
 i {
@@ -181,21 +203,45 @@ i {
   color: rgb(0, 0, 0);
 }
 
-.section-masc {
-  background-color: beige;
-  margin-top: 2px;
-}
-
-.pai {
+.banner {
+  box-shadow: 0px 0px 5px rgb(253, 157, 157);
+  border-radius: 10px;
   width: 10;
   height: 300px;
 }
 
 .logos {
+  border: 0.5px solid rgba(255, 255, 255, 0);
+  border-radius: 50px;
+  background-color: transparent;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100px;
   padding: 10px;
+}
+
+.logos1 {
+  border: 0.5px solid rgba(255, 255, 255, 0);
+  border-radius: 60px;
+  background-color: transparent;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100px;
+  padding: 10px;
+}
+
+.logos:hover {
+  background-color: white;
+  cursor: pointer;
+  width: 101px;
+  box-shadow: 0px 0px 5px rgb(253, 157, 157);
+}
+
+.logos1:hover {
+  cursor: pointer;
+  width: 102px;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgb(253, 157, 157);
 }
 
 .contatos {
@@ -208,4 +254,8 @@ i {
 
 b > i {
   text-decoration: none;
+}
+
+.section {
+  height: 100%;
 }
