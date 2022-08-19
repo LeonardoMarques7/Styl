@@ -34,11 +34,23 @@ a > img > nav {
   width: 60px;
 }
 
+.logos-nav {
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 200px;
+  border: 0px solid antiquewhite;
+}
+
+.logos-nav:hover {
+  width: 21px;
+}
+
 img:hover > nav {
   cursor: pointer;
   box-shadow: 0 0 5px antiquewhite;
   border-radius: 16px;
 }
+
 
 .home {
   height: 100vh;
